@@ -1,0 +1,15 @@
+.formu-card-maps {
+    padding: 20px;
+    background-color: rgb(169, 187, 141);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formu-card-maps form {
+    padding: 20px;
+    margin-top: 6px;
+}
+
+.formu-card-maps iframe {
+    margin-left: 20px;
+}
