@@ -26,3 +26,21 @@
 #vision-card-body {
     padding: 17px
 }
+
+.autoridades-estructura {
+    background-color: rgb(169, 187, 141);
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+#list-group-autoridades {
+    margin-left: 20px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+#list-group-autoridades h5 {
+    margin-bottom: 5px;
+}
