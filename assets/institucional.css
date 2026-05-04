@@ -1,0 +1,28 @@
+.historia-mision-vision {
+    background-color: rgb(169, 187, 141);
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#historia-card {
+    margin-bottom: 14px;
+}
+
+#mision-card {
+    margin-top: 80px;
+}
+
+#vision-card {
+    margin-top: 80px;
+}
+
+#mision-card-body {
+    padding: 17px;
+}
+
+#vision-card-body {
+    padding: 17px
+}
