@@ -48,3 +48,10 @@ header h1 {
 .container-nav ul li a:hover {
     color: rgba(98, 193, 230, 0.822) !important;
 }
+
+.foot-copy {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
