@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="encabezado-gral">
+        <div class="encabezado-titulo text-bg-dark">
+          <h1>IPF - Instituto Politécnico Formosa</h1>
+        </div>
+        <nav class="container-nav">
+          <ul
+            class="nav justify-content-center justify-content-evenly text-bg-dark"
+          >
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="institucional.html">Institucional</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="carreras.html">Carreras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+        <section class="formu">
+            <div class="row">
+                <div class="col-6">
+                    <form class="text-bg-dark">
+                        <div class="mb-3">
+                            <label for="nombre-apellido" class="form-label">Nombre/s y Apellido/s</label>
+                            <input type="text" class="form-control" id="nombre-apellido" aria-describedby="emailHelp">
+                            <div id="nombre-apellido" class="form-text text-bg-dark">Ingresá tu nombre y apellido ahí arriba</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text text-bg-dark">Ingresá tu email ahí arriba</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="n-tel" class="form-label">Numero de Telefono</label>
+                            <input type="tel" class="form-control" id="n-tel">
+                            <div id="n-tel" class="form-text text-bg-dark">Ingresá tu nro de telefono ahí arriba</div>
+                        </div>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Motivo de Consulta</option>
+                            <option value="1">Duda</option>
+                            <option value="2">Recomendación</option>
+                            <option value="3">Queja</option>
+                        </select>
+                        <div class="mb-3">
+                            <label for="text-msj" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="text-msj" rows="3"></textarea>
+                            <div id="text-msj" class="form-text text-bg-dark">Escriba su mensaje ahí arriba</div>
+                        </div>          
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-6">
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <footer class="foot-copy text-bg-dark">
+      <p>&copy; IPF 2026 Cabezas Mateo</p>
+      <p>Tecnicatura en Desarrollo de Software Multiplataforma</p>
+    </footer>
+  </body>
+</html>
